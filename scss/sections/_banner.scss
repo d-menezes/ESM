@@ -1,16 +1,19 @@
 
 .main-banner {
-	background-image: url(https://via.placeholder.com/1920x952);
+	background-image: url(images/1920x952.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 150px 0 0;
+
 	.container {
 		max-width: 1560px;
 	}
+
 	.banner-text {
-		flex:0 0 780px;
+		flex: 0 0 780px;
 		max-width: 780px;
 		padding-top: 92px;
+
 		> h2 {
 			color: #ffffff;
 			font-size: 110px;
@@ -18,6 +21,7 @@
 			line-height: 95px;
 			margin-bottom: 50px;
 		}
+
 		a {
 			display: inline-block;
 			color: #f43930;
@@ -27,12 +31,14 @@
 			border-bottom: 1px solid #f43930;
 		}
 	}
+
 	.banner-img {
 		flex: 0 0 618px;
 		max-width: 618px;
 		position: relative;
 		top: 50px;
 	}
+
 	&.overlay:before {
 		opacity: 0.90;
 		z-index: -1;
